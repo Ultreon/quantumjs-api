@@ -1,0 +1,21 @@
+{
+  "name": "qjs_example_mod",
+  "version": "1.0.0",
+  "main": "index.mts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-build-json": "mkdir -p build/js && cp ./package-build.json ./build/js/package.json",
+    "build": "npm run copy-build-json && tsc --build --verbose && cd ./build/js && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "quantumjs": "^0.1.0"
+  }
+}

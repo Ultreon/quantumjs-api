@@ -1,0 +1,20 @@
+{
+  "name": "ts_tests",
+  "version": "1.0.0",
+  "main": "index.mts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p ../dist && npm pack --pack-destination ../dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
