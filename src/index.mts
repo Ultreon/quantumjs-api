@@ -1,8 +1,12 @@
 import Identifier from "quantumjs/game/util/Identifier.mjs";
 import Logger from "quantumjs/game/log/Logger.mjs";
 import LoggerFactory from "quantumjs/game/log/LoggerFactory.mjs";
-import { ModItems } from "./items.mjs";
-import { ModBlocks } from "./blocks.mjs";
+
+import PlayerEvents from "quantumjs/game/events/PlayerEvents.mjs";
+import BlockEvents from "quantumjs/game/events/BlockEvents.mjs";
+
+import {registerVanilla} from "./events.mjs";
+import Block from "quantumjs/game/block/Block.mjs";
 
 export const MOD_ID = "modid";
 
@@ -13,7 +17,6 @@ export function id(path: string): Identifier {
 }
 
 export default function (): void {
-    ModItems.init();
-    ModBlocks.init();
+    logger.info("QuantumJS API loaded");
 }
 

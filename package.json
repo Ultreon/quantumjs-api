@@ -1,5 +1,6 @@
 {
-  "name": "qjs_example_mod",
+  "name": "quantumjs_api",
+  "displayName": "QuantumJS API",
   "version": "1.0.0",
   "main": "index.mts",
   "scripts": {
@@ -9,13 +10,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "CC0-1.0",
+  "license": "LGPL-3.0-only",
   "description": "",
   "type": "module",
   "devDependencies": {
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "quantumjs": "^0.1.0"
+    "quantumjs": "^0.1.1"
   }
 }
