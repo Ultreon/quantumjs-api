@@ -1,5 +1,5 @@
 # QuantumJS API
-This projecct is licensed under [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0-standalone.html).  
+This project is licensed under [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0-standalone.html).  
 The Quantum Voxel game is licensed under [Ultreon PSL 1.0](https://github.com/Ultreon/quantum-voxel/blob/master/LICENSE.md).
 
 ## Dependencies
