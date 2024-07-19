@@ -4,7 +4,7 @@ The Quantum Voxel game is licensed under [Ultreon PSL 1.0](https://github.com/Ul
 
 ## Dependencies
 
-- [Quantum Voxel](https://github.com/Ultreon/quantum-voxel) and [QuantumJS](https://gitlab.com/ultreon/quantumjs)
+- [Quantum Voxel](https://github.com/Ultreon/quantum-voxel) and [QuantumJS](https://gitlab.com/ultreon/quantum-js/quantumjs)
 
 ## How to build
 
